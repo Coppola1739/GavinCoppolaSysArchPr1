@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ca1aff-74d5-489c-ad13-fda4ae630401" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/westga/cs3110/unicoder/tests/model/codepoint/TestCodepointConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/westga/cs3110/unicoder/tests/codepoint/TestCodepointToUTF16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/westga/cs3110/unicoder/tests/codepoint/TestCodepointToUTF32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/westga/cs3110/unicoder/tests/codepoint/TestCodepointToUTF8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GavinCoppolaSysArchPr1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GavinCoppolaSysArchPr1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/westga/cs3110/unicoder/model/Codepoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westga/cs3110/unicoder/model/Codepoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/westga/cs3110/unicoder/tests/model/codepoint/TestCodepointConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westga/cs3110/unicoder/tests/codepoint/TestCodepointConstructor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +46,74 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "ruby.rails.projectView.checked": "true",
     "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="TestCodepointConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestCodepointToUTF8">
+    <configuration name="TestCodepointConstructor and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GavinCoppolaSysArchPr1" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="edu.westga.cs3110.unicoder.tests.model.codepoint.TestCodepointConstructor" />
+        <pattern testClass="edu.westga.cs3110.unicoder.tests.model.codepoint.TestCodepointToUTF8" />
+        <pattern testClass="edu.westga.cs3110.unicoder.tests.model.codepoint.TestCodepointToUTF16" />
+        <pattern testClass="edu.westga.cs3110.unicoder.tests.model.codepoint.TestCodepointToUTF32" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCodepointToUTF16" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GavinCoppolaSysArchPr1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.westga.cs3110.unicoder.tests.codepoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.westga.cs3110.unicoder.tests.codepoint" />
+      <option name="MAIN_CLASS_NAME" value="edu.westga.cs3110.unicoder.tests.codepoint.TestCodepointToUTF16" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCodepointToUTF8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GavinCoppolaSysArchPr1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.westga.cs3110.unicoder.tests.codepoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.westga.cs3110.unicoder.tests.codepoint" />
+      <option name="MAIN_CLASS_NAME" value="edu.westga.cs3110.unicoder.tests.codepoint.TestCodepointToUTF8" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.westga.cs3110.unicoder.tests.codepoint in GavinCoppolaSysArchPr1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GavinCoppolaSysArchPr1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.westga.cs3110.unicoder.tests.codepoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.westga.cs3110.unicoder.tests.codepoint" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.westga.cs3110.unicoder.tests.model.codepoint in GavinCoppolaSysArchPr1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GavinCoppolaSysArchPr1" />
       <extension name="coverage">
         <pattern>
@@ -57,15 +122,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.westga.cs3110.unicoder.tests.model.codepoint" />
-      <option name="MAIN_CLASS_NAME" value="edu.westga.cs3110.unicoder.tests.model.codepoint.TestCodepointConstructor" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestCodepointConstructor" />
+        <item itemvalue="JUnit.TestCodepointToUTF8" />
+        <item itemvalue="JUnit.TestCodepointToUTF16" />
+        <item itemvalue="JUnit.edu.westga.cs3110.unicoder.tests.codepoint in GavinCoppolaSysArchPr1" />
+        <item itemvalue="JUnit.edu.westga.cs3110.unicoder.tests.model.codepoint in GavinCoppolaSysArchPr1" />
+        <item itemvalue="JUnit.TestCodepointConstructor and 3 more" />
       </list>
     </recent_temporary>
   </component>
@@ -77,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694010538688</updated>
-      <workItem from="1694010541853" duration="2682000" />
+      <workItem from="1694010541853" duration="23012000" />
     </task>
     <servers />
   </component>
