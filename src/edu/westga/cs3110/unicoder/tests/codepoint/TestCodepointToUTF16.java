@@ -9,8 +9,8 @@ public class TestCodepointToUTF16 {
 
     @Test
     public void testValid5CharToUTF16() {
-        Codepoint codepoint = new Codepoint("0183A5");
-        assertEquals("DB1ADC2F", codepoint.toUTF16());
+        Codepoint codepoint = new Codepoint("1682F");
+        assertEquals("D81ADC2F", codepoint.toUTF16());
     }
 
     @Test
